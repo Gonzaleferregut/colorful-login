@@ -1,0 +1,109 @@
+.page_layout {
+  width: 960px;
+  margin: 15px auto;
+}
+
+* {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+form {
+  width: 630px;
+  border: 1px green solid;
+  /*background: linear-gradient(135deg, orange, yellow, green);*/
+  background: linear-gradient(45deg, green, blue, red);
+}
+
+h3::before {
+  content: "My";
+}
+
+h3::after {
+  content: "Login";
+}
+
+h3 {
+  margin-left: 20px;
+  color: white;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 20px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstName {
+  width: 289px;
+  margin: 0 5px 5px 20px;
+  padding: 5px;
+}
+
+.lastName {
+  width: 289px;
+  margin: 0 20px 5px 5px;
+  padding: 5px;
+}
+
+.number {
+  margin: 5px 5px 0 20px;
+  padding: 5px;
+  width: 50px;
+}
+
+.date {
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+  height: 27px;
+  width: 200px;
+}
+
+.color {
+  padding: 5px;
+  margin: 5px;
+  height: 27px;
+}
+
+.password {
+  padding: 5px;
+  margin: 5px;
+  width: 170px;
+}
+
+.email {
+  margin: 5px 5px 5px 20px;
+  padding: 5px;
+  width: 200px;
+}
+
+select {
+  height: 27px;
+  padding: 5px;
+  margin: 5px 20px 5px 5px;
+  width: 374px;
+}
+
+.radio {
+  margin: 10px 5px 0 20px;
+  display: flex;
+  font-size: 13px;
+}
+
+.radio > p {
+  padding: 2px;
+  color: white;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.submit {
+  width: 588px;
+  margin: 5px 20px;
+  color: white;
+  background-color: #008B00;
+}
+
+input {
+  border-radius: 5px;
+}
